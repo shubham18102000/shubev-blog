@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+
 import Image from "next/image";
 import Link from "next/link";
 import backgroundImage from "../../../public/assets/1.jpg";
@@ -29,7 +29,11 @@ export const HeroSection = () => {
         <div className="hidden md:flex gap-8">
           {["Home", "Blog", "About", "Services", "Contact", "Login"].map(
             (item) => (
-              <Link key={item} href={`/${item.toLowerCase()}`} className="hover:text-gray-300">
+              <Link
+                key={item}
+                href={`/${item.toLowerCase()}`}
+                className="hover:text-gray-300"
+              >
                 {item}
               </Link>
             )
