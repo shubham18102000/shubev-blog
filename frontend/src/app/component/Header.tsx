@@ -84,7 +84,7 @@ export const HeroSection = () => {
             isMenuOpen ? "translate-x-0" : "translate-x-full"
           } md:hidden`}
         >
-          {["Home", "News", "Reviews", "Charging", "Tech", "Blog"].map((item) => (
+          {["Home", "News", "Reviews", "Charging", "About", "Blog"].map((item) => (
             <Link
               key={item}
               href={`/${item.toLowerCase()}`}
