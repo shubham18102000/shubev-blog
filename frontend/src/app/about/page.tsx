@@ -32,10 +32,10 @@ export default function About() {
         <div className="space-y-6">
           <h2 className="text-2xl md:text-3xl font-bold">Our Journey</h2>
           <p className="text-base md:text-lg">
-            ShubEV was founded with a simple mission: to accelerate the world's transition to sustainable
-            transportation. Since our inception, we've been at the forefront of covering electric vehicle innovations,
-            market trends, and the evolving landscape of clean energy mobility.
-          </p>
+  ShubEV was founded with a simple mission: to accelerate the world&apos;s transition to sustainable
+  transportation. Since our inception, we&apos;ve been at the forefront of covering electric vehicle innovations,
+  market trends, and the evolving landscape of clean energy mobility.
+</p>
           <p className="text-base md:text-lg">
             Our team of experts and enthusiasts brings you the latest news, in-depth reviews, and analysis of everything
             from consumer EVs to commercial electric fleets and the infrastructure that powers them.
