@@ -132,7 +132,7 @@ export const HeroSection = () => {
               href="/latest-news"
               className="bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 px-8 py-4 rounded-full font-semibold text-white transition-all duration-300 transform hover:scale-105"
             >
-              Explore Latest News's
+              Explore Latest News are
             </Link>
             <Link
               href="/ev-reviews"
